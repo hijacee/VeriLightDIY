@@ -1,11 +1,12 @@
 /*
-  WiFiManager with saved textboxes Demo
-  wfm-text-save-demo.ino
+  DIY VeriLight / ReadyLight for FinishLynx
+  by Christoph, 2024
+  
   Saves data in JSON file on ESP32
   Uses SPIFFS
- 
-  DroneBot Workshop 2022
-  https://dronebotworkshop.com
+  
+  The Wifi-Manager functions are based on Bills codes at DroneBot Workshop
+  https://dronebotworkshop.com/wifimanager/
  
   Functions based upon sketch by Brian Lough
   https://github.com/witnessmenow/ESP32-WiFi-Manager-Examples
