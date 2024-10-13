@@ -37,7 +37,13 @@ You will need to set up a Wifi network that is also part of the PC you're runnin
 On the first start, the Light will go into access point (AP) Mode, as there are no known networks around. It will automatically broadcast an own wifi network named "ReadyLight_AP". Connect to the network with device of your choice - the default passwort is "12345678". Both is adaptable in Line 312 of the code. 
 If your device is not directly redirected to the settings page, open a browser and type 192.168.4.1 (as the default Wifi-Manager IP).
 The SSID and the IP address of the settings page are also displayed on the OLED display during AP-mode.
-In the settings page you can scan for available networks. Chose your network from the list, enter the password if needed and save the configuration. The System will reboot and connect automatically to the assigned network. It will then also show it's current IP address on the OLED Screen as well as the Port the Light is listening for connection from FinishLynx.
+In the settings page you can scan for available networks. Chose your network from the list, enter the password if needed and save the configuration. The System will reboot and always connect automatically to the assigned network, if available. It will then also show it's current IP address on the OLED Screen as well as the Port the Light is listening for connection from FinishLynx.
+
+To change the network properties or the FinishLynx Port, you need to re-enter the AP-mode. This is done in pressing the button within three seconds of the boot-up sequence.
+If the last configured network is not available, the Light will also boot into AP-mode.
+![IMG_E7291](https://github.com/user-attachments/assets/8c436c62-eeb5-4024-8277-384b65616b37)
+<img src="https://github.com/user-attachments/assets/8c436c62-eeb5-4024-8277-384b65616b37" width=50%>
+
 
 ### FinishLynx Setup
 The Light is configured as TCP server. To add the Light, follow these steps:
