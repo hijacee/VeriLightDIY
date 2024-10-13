@@ -90,3 +90,9 @@ The seventh byte (in the case above, the first **04**) sets the color for the en
 | other   | Black (off)        |
 
 Additionaly you can enable blinking of the light with the status of the 12th byte. If it is a **01**, blinking is enabled, if it is a **00**, blinking is disabled. Please note, that currently blinking does not work, when FinishLynx updates the output of the "scoreboard" every second or faster.
+
+## Real life images
+<img src="https://github.com/user-attachments/assets/7b264ea2-2402-450f-b947-abdf83bc6735" width=50%>
+<img src="https://github.com/user-attachments/assets/f282c668-1982-4113-aaa8-bdb14c37aeed" width=50%>
+<img src="https://github.com/user-attachments/assets/fbb16b2e-6e3b-40e3-a5ce-ab98728c1b23" width=50%>
+<img src="https://github.com/user-attachments/assets/e1569b62-d5ff-4e6c-91ba-566960d6b57f" width=50%>
