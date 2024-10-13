@@ -41,8 +41,8 @@ In the settings page you can scan for available networks. Chose your network fro
 
 To change the network properties or the FinishLynx Port, you need to re-enter the AP-mode. This is done in pressing the button within three seconds of the boot-up sequence.
 If the last configured network is not available, the Light will also boot into AP-mode.
-![IMG_E7291](https://github.com/user-attachments/assets/8c436c62-eeb5-4024-8277-384b65616b37)
-<img src="https://github.com/user-attachments/assets/8c436c62-eeb5-4024-8277-384b65616b37" width=50%>
+
+<img src="https://github.com/user-attachments/assets/8c436c62-eeb5-4024-8277-384b65616b37" width=30%>
 
 
 ### FinishLynx Setup
@@ -60,6 +60,8 @@ The Light is configured as TCP server. To add the Light, follow these steps:
 ### Operation
 As long as the Light is connected to the network, it will display it's IP address and Port on the OLED display. 
 If there is no TCP connection established, the LEDs blink yellow in an one second interval. When FinishLynx connects to that light, the blinking stops and the OLED displays "CLIENT CONNECTED". If, for any reason (network out of range, FinishLynx is closed etc.), the TCP connection breaks, the display says "CLIENT DISCONNECTED" and the LEDs start blinking yellow again. So you an anyone can tell immediately, that something is wrong.
+
+<img src="https://github.com/user-attachments/assets/bd4451d7-8c73-4243-b0cb-e0c2dc458583" width=30%> <img src="https://github.com/user-attachments/assets/f87dfded-4aa5-4c8e-9dde-fd3793c251fa" width=30%> <img src="https://github.com/user-attachments/assets/b49795e9-cca9-4137-956a-a1d3d8715dac" width=30%>
 
 The behaviour of the Light is set through the original VeryLight.lss from Finishlynx. You can adapt this lss-script to your needs. In the lss you will find commands that look similar to this:
 
